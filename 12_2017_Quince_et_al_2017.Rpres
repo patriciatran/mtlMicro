@@ -2,11 +2,11 @@ MtlMicro Meeting: December 2017
 Quince et al., 2017
 "DESMAN: a new tool for de novo extraction of strains from metagenome"
 ========================================================
-author: P.Tran
+author: Patricia Tran
 date: December 6, 2017
 autosize: true
 
-WELCOME
+WELCOME!
 ========================================================
 Welcome to the First MtlMicro Meeting!
 Thank you all for the paper suggestions.
@@ -41,12 +41,67 @@ Some key terms
 Definitions
 ====================================
 Bayesian Model:
+
 MCMC:
-Gibbs Sampler: 
+
+Gibbs Sampler: One type of MCMC. 
+
 Convergence:
+
 Non-negative matrix factorisation:
+
 Non-negative tensor factorisation:
+
 Maximum-likelihood:
+
+DESMAN model testing
+====================================
+![](12_2017_Quince_et_al_2017-figure/Quince_et_al_2017_Figure2.gif)
+Figure 2
+
+E.coli O104:H4 outbreak
+====================================
+Applied the algorithm to 53 human feacal samples from the 2011 STEC O104:H4 outbreak
+
+Starting point: 
+- unknown number of exact strains present in the population nor their proportions
+- We know one of these strains, from cultured isolate that was sequenced.
+- Can we use DESMAN to find/predict that particular strain?
+
+A few points:
+20 samples were used because they had mean coverage of SCSG (Single core genes) greater than 5. Smaller than that is hard to deconvolute.
+
+Validation of reconstructed strains 
+====================================
+![](12_2017_Quince_et_al_2017-figure/Quince_et_al_2017_Figure3.gif)
+Figure 3
+
+Figure 4
+====================================
+![](12_2017_Quince_et_al_2017-figure/Quince_et_al_2017_Figure4.gif)
+
+Figure 5
+====================================
+![](12_2017_Quince_et_al_2017-figure/Quince_et_al_2017_Figure5.gif)
+
+TARA Oceans plankton microbiome survey
+====================================
+7.2 TB of metagenomic data, 243 samples accross 68 locations from epipelagic and mesopelagic waters globally
+
+- No attemps to bin into MAGs in the original study
+- Delmont et al., 2011 : Extracted 957 MAGs from 93 of these samples (Using CONCOCT and ANVI'O)
+    + 32 of the most abundant MAGS with 75% of SCG %>% DESMAN
+    + 4 Actinobacteria, 6 Bacteroidetes, 1 *Candidatus Marinimicrobia*, 1 Chloroflexi, 3 Euryarchaeota and 17 Proteobacteria
+
+Figure 6
+====================================
+![](12_2017_Quince_et_al_2017-figure/Quince_et_al_2017_Figure6.gif)
+
+Open-ended discussion
+====================================
+Example questions to discuss:
+- 
+
 
 
 
