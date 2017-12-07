@@ -107,6 +107,9 @@ Open-ended discussion
 ====================================
 Example questions to discuss:
 
+- De novo vs. reference based?
+- What is a metagenome? What is a species? Is it an operational terms? (any more useful than OTU?)
+- What are the caveats of using these terms?
 - In which scenarios would deconvoluting MAGs be useful? For what kind of questions?
 - Would this method can useful in your research?
 - What binning algorithm do you use for your research? What are the pros and cons you have encountered?
