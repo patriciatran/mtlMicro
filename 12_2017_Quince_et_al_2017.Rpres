@@ -46,19 +46,19 @@ Some key terms
 
 Definitions
 ====================================
-Bayesian Model:
+**Bayesian Model**: a graphical model that represents a set of random variables and their conditional dependencies via a directed acyclic graph.
 
-**MCMC**: A method to sample from and to computing expectations with high-dimensional probability distributions. Check out this video <https://www.youtube.com/watch?v=12eZWG0Z5gY> for an intro to it.
+**MCMC**: A method to sample from, and to computing expectations with high-dimensional probability distributions. Check out this video <https://www.youtube.com/watch?v=12eZWG0Z5gY> for an intro to it.
 
-Gibbs Sampler: One type of MCMC. 
+**Gibbs Sampler**: One class of algorithm (a series of well defined steps to achieve an outcome/method) that consist of generate posterior samples by sweeping through each variable (or block of variable) to sample from its conditional distibution with the remaining variables fixed to their current values (Yildirim, 2012: Bayesian Inference: Gibbs Sampling, U. of Rocherster)
 
-Convergence:
+**Convergence**: When the sample values have the same distribution as if they were sampled from the true posterior joint distribution (Yildirim, 2012)
 
 Non-negative matrix factorisation:
 
 Non-negative tensor factorisation:
 
-Maximum-likelihood:
+**Maximum-likelihood**: The process of finding the value of one or more parameters of a model, given observations by finding the parameters values that maximized the likelihood of making the observations given the parameters. 
 
 DESMAN model testing
 ====================================
