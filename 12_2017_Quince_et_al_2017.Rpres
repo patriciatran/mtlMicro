@@ -41,10 +41,10 @@ Figure 1.
 Proof of concept
 ====================================
 Tested the DESMAN pipeline on two datasets
-- E.coli Outbreak = having a reference (E.coli genomes) + in sillico
-- Complex environmental samples = more representative to what a environmental microbiologist would do. Using the TARA Oceans project
+- E.coli Outbreak = mock community (simple) + test on real metagenomic dataset (simple, 5 strains, known outbreak strain)
+- Complex environmental samples = more representative to what a environmental microbiologist would do. Using the TARA Oceans project. complex mock community + test on real data set (complex TARA Oceans)
 
-Mock Community
+Mock Community (Simple)
 ====================================
 1. Binning (using Concoct, or any other de novo binning method)
   + 20 metagenomes --> 19 bins
@@ -120,10 +120,17 @@ Discussion: Is it novel strains, or just low uncertainty?
 
 The authors then inferences the presence/absence of the other genes in the 3 bins and found that H7 was most closely related to the 0104:H4 outbreak stain, with 91.8% of the inferred genes being identical (!)
 
-Figure 4
+Complex Mock Community
 ====================================
 ![](12_2017_Quince_et_al_2017-figure/Quince_et_al_2017_Figure4.gif)
+Figure 4.
+a. No of variants (True Positive, False Positive, False Negative) vs. Cluster (37 on the x axis), 27 of them are TP (red).
 
+b. Haplotype inference accuracy. Err = Mean error rate in SNV predictions on single-copy core genes (SCG)
+
+c. Comparison of the true relative strain frequency and the inferred haplotype frequency across the 96 samples of the complex mock community. E = SNV Error rate
+
+d. Haplotype SNV error vs. gene presence/absence error rate. 
 
 TARA Oceans plankton microbiome survey
 ====================================
