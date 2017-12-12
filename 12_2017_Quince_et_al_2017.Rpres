@@ -9,12 +9,18 @@ date: December 12, 2017
 width: 1440
 height: 900
 
+
 WELCOME!
 ========================================================
+```{r include=FALSE}
+knitr::opts_chunk$set(out.height="400px", dpi=120, echo=FALSE)
+```
+
+
 Welcome to the First MtlMicro Meeting!
 Thank you all for attending and for the paper suggestions.
 
-This paper was suggested by Nicolas Tromas from the Shapiro Lab. 
+#This paper was suggested by Nicolas Tromas from the Shapiro Lab. 
 
 ABSTRACT
 ========================================================
