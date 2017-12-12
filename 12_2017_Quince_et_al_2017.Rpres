@@ -74,7 +74,8 @@ Mock Community (Cont.)
   + Subsample sample 1 to 64, as long as the relative abundances in the subsamples is ~ that of the 64 sample
   + Run DESMAN on only the subsample
   + **Figure 2b**: SNV error rate increases when sample number <= 30, but average error ~15%, even with just 10 samples. At low sample number, accuracy is very variable --> some strains will be resolved accurately, wherease others are missed completely.
-- Inference of strain abundances:
+
+6. Inference of strain abundances:
   + i.e. : What's the frequency of each strain in each sample?
   + Relative frequency = proportion of coverage deriving from each strain, when the reads are mapped unto each MAG. 
   + **2c** : Predicted frequency is almost 1:1 to the real E.coli strain frequency.
@@ -82,14 +83,14 @@ Mock Community (Cont.)
 Mock Community (Cont.)
 ====================================
 
-6. Run time: pretty quick, less than 2 hours on 1 core, without parallelization. Scales linearly with sample number.
+7. Run time: pretty quick, less than 2 hours on 1 core, without parallelization. Scales linearly with sample number.
 
-7. Gene assignment: 
+8. Gene assignment: 
   + i.e. is it good at assigning non-core genes?
   + Take the posterior mean deviance (y value of Figure 2a, for which G < 5) --> Parameters to infer the presence or absence of each genes in each strain. 
   + **Figure 2d**:(what do these colours mean?!)
 
-DESMAN model testing using the Mock Community
+Testing using the Mock Community
 ====================================
 ![](12_2017_Quince_et_al_2017-figure/Quince_et_al_2017_Figure2.gif)
 Figure 2
